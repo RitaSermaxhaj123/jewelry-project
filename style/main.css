@@ -1,0 +1,109 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+/*HOMEPAGE CSS*/
+.rings-section,.neck-section,.ear-section,.brace-section,
+.shop-interior,.story-sec,.inspo1,.inspo2,.inspo3{
+	display: inline-block;
+	width: 100%;
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+  	resize: both;
+  	overflow: auto;
+  	opacity: 1;
+  	transition: .3s all;
+}
+.title-cat{
+	color: black;
+}
+.title-cat:hover{
+	opacity: 0.5;
+}
+.rings-section{
+	background-image: url('../images/ring1.jpg');
+}
+.neck-section{
+	background-image: url('../images/neck.jpg');
+}
+.ear-section{
+	background-image: url('../images/ear.jpg');
+}
+.brace-section{
+	background-image: url('../images/brace.jpeg');
+}
+a div.rings-section:hover,a div.ear-section:hover,a div.neck-section:hover,a div.brace-section:hover{
+	opacity: 0.8;
+}
+.btn-shop{
+	border:1px solid white;
+	width: 200px;
+	height: 50px;
+	position: relative;
+	left: 250px;
+}
+.btn-shop:hover{
+	background-color: #ccafaf;
+}
+li.shop{
+	color: white;
+	list-style-type: none;
+	position: relative;
+	bottom: -15px; 
+}
+.btn-wishlist{
+	width: 41px;
+	height: 41px;
+}
+.btn-wishlist:hover{
+	background-color: #ccafaf;
+}
+.story-sec{
+	background-image: url('../images/model.jpg');
+}
+.info-tag{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.contact-sec{
+	width: 100%;
+	height: 300px;
+	background-color: #ccafaf;
+}
+.shop-interior{
+	background-image: url('../images/shop.jpg')
+}
+.inspire-txt{
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.inspo1{
+	background-image: url('../images/inspo1.jpg');
+}
+.inspo2{
+	background-image: url('../images/inspo2.jpg');
+}
+.inspo3{
+	background-image: url('../images/inspo3.jpg');
+}
+.row-inspo{
+	margin-bottom: 20px;
+}
+.row-contact{
+	margin-top: 30px;
+}
+.nav-color{
+	background-color: #ccafaf;
+}
+
+
